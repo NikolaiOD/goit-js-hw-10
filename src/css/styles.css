@@ -18,3 +18,57 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+/* ======мои стили======== */
+
+/* ======общие======== */
+body {
+  background-color:aliceblue;
+}
+
+#search-box {
+  background-color:bisque;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+  height: auto;
+}
+
+h2,
+ul {
+  margin: 0;
+	padding: 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ======для списка стран======== */
+
+.country-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+/* ======для одной страны======== */
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.country-flag {
+  width: 60px;
+  height: 40px;
+}
